@@ -3,7 +3,7 @@ package gojson
 // This is what we would like example_array.json
 // to generate, though for the time being we'll have to settle
 // for []interface{}
-// https://github.com/ChimeraCoder/gojson/issues/17
+// https://github.com/go-jsonfile/gojson/issues/17
 
 type Users []struct {
 	AvatarURL         string      `json:"avatar_url"`

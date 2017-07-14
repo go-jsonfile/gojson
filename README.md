@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ChimeraCoder/gojson.svg?branch=master)](https://travis-ci.org/ChimeraCoder/gojson)
+[![Build Status](https://travis-ci.org/go-jsonfile/gojson.svg?branch=master)](https://travis-ci.org/go-jsonfile/gojson)
 gojson
 ======
 
@@ -8,7 +8,7 @@ Example
 ----------
 
 ```sh
-$ curl -s https://api.github.com/repos/chimeracoder/gojson | gojson -name=Repository
+$ curl -s https://api.github.com/repos/go-jsonfile/gojson | gojson -name=Repository
 
 package main
 
@@ -104,7 +104,7 @@ CLI Installation
 ----------------
 
 ```sh
-$ go get github.com/ChimeraCoder/gojson/gojson
+$ go get github.com/go-jsonfile/gojson/gojson
 ```
 
 Assuming `$GOPATH/bin` is in your `PATH`, you can now invoke `gojson` directly.
@@ -114,14 +114,14 @@ API Installation
 ----------------
 
 ```sh
-$ go get github.com/ChimeraCoder/gojson
+$ go get github.com/go-jsonfile/gojson
 ```
 
 Development
 -----------
 
 ```
-$ git clone https://github.com/ChimeraCoder/gojson.git
+$ git clone https://github.com/go-jsonfile/gojson.git
 $ cd gojson
 $ go test
 ```

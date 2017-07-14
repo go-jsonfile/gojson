@@ -3,7 +3,7 @@
 // Reads from stdin and prints to stdout
 //
 // Example:
-// 	curl -s https://api.github.com/repos/chimeracoder/gojson | gojson -name=Repository
+// 	curl -s https://api.github.com/repos/go-jsonfile/gojson | gojson -name=Repository
 //
 // Output:
 // 	package main
