@@ -114,7 +114,7 @@ CLI Update
 
 Using `gojson` is now deprecated. You can still install and use it, but better use [`jsonfiddle j2s`](https://github.com/go-jsonfile/jsonfiddle#-jsonfiddle-j2s) instead, because all the improvements will be happening there. Currently the advantages of `jsonfiddle j2s` over `gojson` are:
 
-- No longer use the dummy `Foo` as the default for the name of the struct now, but use the input file name to automatic set the struct name instead, yet it can be overridden from command line (by `--name`). [Check the details here](https://github.com/go-jsonfile/jsonfiddle/blob/0.2.0/cmdJ2s.go#L41-L44).
+- No longer uses the dummy `Foo` as the default for the name of the struct now, but use the input file name to automatic set the struct name instead, yet it can be overridden from command line (by `--name`). [Check the details here](https://github.com/go-jsonfile/jsonfiddle/blob/0.2.0/cmdJ2s.go#L41-L44).
 - Internally, much more code consolidation and simplification (e.g., input/output file handling) have been done under the hood, so the hand-edited code has been reduced from over a hundred (132) to [just several lines](https://github.com/go-jsonfile/jsonfiddle/blob/0.2.0/cmdJ2s.go#L37-L49).
 
 Much more enhancements will be taken place, [check out details here](https://github.com/go-jsonfile/gojson/projects/1).
